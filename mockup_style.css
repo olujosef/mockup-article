@@ -1,0 +1,95 @@
+body
+{
+	box-sizing: border-box;
+	border: thin none red;
+	width: 100%;
+	padding: 10px;
+}
+
+header
+{
+	display: block;
+	border-bottom: 0.2vw solid #7d97ad;
+	
+}
+
+.logo{
+	max-width: 8vw;
+	height: auto;
+	float: left;
+}
+
+.first_image{
+	width: 100%;
+	height: 100%; 
+	margin-top: 10px;
+	border: thin none white;
+	margin: 0;
+	padding: 5px;
+}
+
+
+h1{
+	text-align: right;
+	font-family: Roboto;
+	font-weight: lighter;
+	font-size: 4vw;
+	
+}
+.author_info
+{
+	font-family: Arial;
+	font-size: 2vw;
+	
+
+}
+
+.section{
+	display: block;
+	box-sizing: border-box;
+	border: thin none white;
+	width: 100%;
+	padding: 5px;
+
+}
+
+.subheading{
+	font-family: Roboto;
+	font-size: 3vw;
+	text-decoration-color: #7d97ad;
+}
+
+.container
+{
+	display: flex;
+	border: thin none;
+	width: 100%;
+	
+}
+
+
+figure{
+	border: thin none white ;
+    display: block;
+    flex-flow: column;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.Works
+{
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+
+figcaption{
+	text-align: center;
+	font-size: 1vw;
+	font-weight: bold;
+	
+}
+
